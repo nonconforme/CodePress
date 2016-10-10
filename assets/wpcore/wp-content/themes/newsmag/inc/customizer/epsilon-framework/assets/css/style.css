@@ -1,0 +1,202 @@
+.customize-control-slider input[type="text"] {
+    border: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    box-shadow: none;
+    color: #333;
+}
+
+.customize-control-slider .ui-slider {
+    position: relative;
+    text-align: left;
+    height: 7px;
+    border-radius: 3px;
+    background: #f2f2f2;
+    border: 1px solid #dedede;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.customize-control-slider .ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 15px;
+    height: 15px;
+    top: -5px;
+    border-radius: 50%;
+    cursor: default;
+    -ms-touch-action: none;
+    touch-action: none;
+    background: #333;
+    border: 1px solid #333;
+}
+
+.customize-control-slider .ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    font-size: 0.7em;
+    display: block;
+    border: 0;
+    background-position: 0 0;
+}
+
+.macho-upsell {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.macho-upsell span.wp-ui-notification {
+    padding: 2px 8px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.macho-upsell-options {
+
+}
+
+.macho-upsell-options li {
+    margin-bottom: 20px;
+    display: inline-block;
+
+}
+
+.macho-upsell .button {
+    display: block;
+    text-align: center;
+}
+
+ul.macho-upsell-requirements {
+    font-size: 12px;
+}
+
+.macho-upsell-requirements li {
+    line-height: 1.75;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+#available-widgets-list [class^='newsmag_'], #available-widgets-list [class*=' newsmag_'], #available-widgets-list [class^='newsmag-'], #available-widgets-list [class*=' newsmag-'] {
+    background: rgba(0, 115, 170, 0.05) !important;
+}
+
+.customize-control-title.onoffswitch_label {
+    width: 70%;
+}
+
+.onoffswitch_label {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    margin-top: -1px;
+}
+
+.onoffswitch {
+    position: relative;
+    width: 40px;
+    display: inline-block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.onoffswitch-checkbox {
+    display: none !important;
+}
+
+.onoffswitch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    height: 25px;
+    padding: 0;
+    line-height: 18px;
+    border: 1px solid #BBBBBB;
+    border-radius: 30px;
+    background-color: #C4C4C4;
+    transition: background-color 0.2s ease-in;
+}
+
+.onoffswitch-label:before {
+    content: "";
+    display: block;
+    width: 25px;
+    margin: 0;
+    background: #FFFFFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 15px;
+    border: 1px solid #BBBBBB;
+    border-radius: 18px;
+    transition: all 0.2s ease-in 0s;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #64BD63;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label,
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    border-color: #64BD63;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    right: 0;
+}
+
+.mte-tooltip {
+    width: 150px;
+    position: absolute;
+    background: #555;
+    color: #EEE;
+    font-size: 12px;
+    min-height: 50px;
+    border-radius: 5px;
+    left: -75px; /* half of its width */
+    top: 25px;
+    z-index: 10;
+    display: none;
+    padding: 12px;
+    line-height: 1.5;
+}
+
+.dashicons.dashicons-editor-help {
+    cursor: pointer;
+}
+
+.dashicons.dashicons-editor-help:hover > .mte-tooltip {
+    display: block;
+}
+
+#accordion-section-newsmag_general_pro_version_section .accordion-section-title {
+    background: #DF4D44;
+    color: #FFF;
+}
+
+#accordion-section-newsmag_general_pro_version_section .accordion-section-title:after {
+    color: #FFF;
+}
+
+#customize-controls #accordion-section-newsmag_general_pro_version_section .accordion-section-title:hover,
+#customize-controls #accordion-section-newsmag_general_pro_version_section:hover > .accordion-section-title {
+    background: #DF4D21;
+    color: #FFF;
+}
+
+#customize-controls #accordion-section-newsmag_general_pro_version_section .accordion-section-title:hover:after,
+#customize-controls #accordion-section-newsmag_general_pro_version_section:hover > .accordion-section-title:after {
+    color: #FFF;
+}
+
+#accordion-section-newsmag_general_pro_version_section .accordion-section-content h3 {
+    background: #DF4D44;
+    color: #FFF;
+}
